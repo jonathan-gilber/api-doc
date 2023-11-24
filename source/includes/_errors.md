@@ -1,22 +1,16 @@
-# Errors
+# Erros
 
-<aside class="notice">
-This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files...just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>'s frontmatter. Files are included in the order listed.
-</aside>
+O projeto Midas usa os seguintes códigos de erros:
 
-The Kittn API uses the following error codes:
-
-
-Error Code | Meaning
+Código | Significado
 ---------- | -------
-400 | Bad Request -- Your request is invalid.
-401 | Unauthorized -- Your API key is wrong.
-403 | Forbidden -- The kitten requested is hidden for administrators only.
-404 | Not Found -- The specified kitten could not be found.
-405 | Method Not Allowed -- You tried to access a kitten with an invalid method.
-406 | Not Acceptable -- You requested a format that isn't json.
-410 | Gone -- The kitten requested has been removed from our servers.
-418 | I'm a teapot.
-429 | Too Many Requests -- You're requesting too many kittens! Slow down!
-500 | Internal Server Error -- We had a problem with our server. Try again later.
-503 | Service Unavailable -- We're temporarily offline for maintenance. Please try again later.
+400 | Bad Request -- Sua solicitação é inválida.
+401 | Unauthorized -- A solicitação não foi concluída porque a autenticação falhou ou a chave de API fornecida é inválida.
+403 | Forbidden -- O acesso está proibido para usuários não autorizados.
+404 | Not Found -- O item especificado não pode ser encontrado.
+405 | Method Not Allowed -- Você tentou acessar o item com um método inválido.
+406 | Not Acceptable -- Você solicitou um formato que não é JSON.
+410 | Gone -- O item solicitado foi removido de nossos servidores.
+429 | Too Many Requests -- Você está solicitando itens demais! Diminua a velocidade!
+500 | Internal Server Error -- Tivemos um problema com nosso servidor. Tente novamente mais tarde.
+503 | Service Unavailable -- Estamos temporariamente fora do ar para manutenção. Por favor, tente novamente mais tarde.
